@@ -210,7 +210,7 @@ namespace sub
 			bool bUnlockAllAch = false;
 			AddOption("Unlock All Achievements", bUnlockAllAch); if (bUnlockAllAch)
 			{
-				int numAchievements = 59;
+				int numAchievements = 78;
 				//gamever
 				for (int i = 0; i < numAchievements; i++)
 					if (!HAS_ACHIEVEMENT_BEEN_PASSED(i))
